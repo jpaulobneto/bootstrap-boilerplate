@@ -166,8 +166,7 @@ gulp.task('styles', () => {
 gulp.task('vendors', () => {
   return gulp.src([
     `${vendor}/jquery/dist/jquery.js`,
-    `${vendor}/bootstrap-sass/assets/javascripts/bootstrap.js`,
-    `${vendor}/swiper/dist/js/swiper.jquery.js`,
+    `${vendor}/bootstrap-sass/assets/javascripts/bootstrap.js`
   ])
   .pipe($.newer(`${tmp}/scripts`))
   .pipe($.sourcemaps.init())
