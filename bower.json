@@ -1,0 +1,35 @@
+{
+  "name": "bootstrap-boilerplate",
+  "description": "HTML5 Twitter Bootstrap 3 Boilerplate with Gulp and ES2015 modules",
+  "main": "web.js",
+  "authors": [
+    "João Paulo Barbosa Neto <jpaulobneto@gmail.com>",
+    "Hugo Fabrício <me@hugofabricio.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "html5",
+    "twitter",
+    "bootstrap",
+    "boilerplate",
+    "gulp",
+    "es2015",
+    "es6",
+    "bower",
+    "responsive",
+    "sass",
+    "jquery"
+  ],
+  "homepage": "https://github.com/jpaulobneto/bootstrap-boilerplate",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "jquery": "^2.2.3"
+  }
+}

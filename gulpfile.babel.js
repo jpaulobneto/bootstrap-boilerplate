@@ -19,7 +19,6 @@ const reload = browserSync.reload;
 const dist = 'dist';
 const src = 'src';
 const tmp = '.tmp';
-const vendor = 'node_modules';
 
 const scripts = watchify(browserify(Object.assign({}, watchify.args, {
   entries: [`${src}/scripts/main.js`],
@@ -165,9 +164,9 @@ gulp.task('styles', () => {
 
 gulp.task('vendors', () => {
   return gulp.src([
-    `${vendor}/jquery/dist/jquery.js`,
-    `${vendor}/bootstrap-sass/assets/javascripts/bootstrap.js`,
-    `${vendor}/swiper/dist/js/swiper.jquery.js`,
+    `${src}/vendors/jquery/dist/jquery.js`,
+    `${src}/vendors/bootstrap-sass/assets/javascripts/bootstrap.js`,
+    `${src}/vendors/swiper/dist/js/swiper.jquery.js`,
   ])
   .pipe($.newer(`${tmp}/scripts`))
   .pipe($.sourcemaps.init())
