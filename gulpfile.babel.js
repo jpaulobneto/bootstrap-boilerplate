@@ -9,7 +9,7 @@ requireDir('./gulp');
 // TODO Adjust build
 gulp.task('default', ['clean'], cb => {
   return runSequence(
-    ['styles', 'vendors', 'scriptify'],
+    ['styles', 'vendors', 'scripts'],
     ['fonts', 'images', 'minifyCss'],
     'copy',
     cb
