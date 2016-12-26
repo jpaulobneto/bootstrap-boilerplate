@@ -1,12 +1,14 @@
-/* Variables Loaded */
-@import "variables";
-/* Helpers */
-@import "helpers/*";
-/* Bootstrap */
-@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-/* Common Styles */
-@import "shared";
+/* Tools */
+@import "tools/*";
+/* Settings */
+@import "settings/*";
+/* Generic */
+@import "generic/*";
+/* Base Styles */
+@import "base";
+/* Objects */
+@import "objects/*";
 /* Components */
 @import "components/*";
-/* Utilities */
-@import "utilities/*";
+/* Helpers */
+@import "helpers/*";

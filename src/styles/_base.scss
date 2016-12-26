@@ -1,0 +1,35 @@
+@-ms-viewport   { width: device-width; }
+@-o-viewport    { width: device-width; }
+@viewport       { width: device-width; }
+
+html, body {
+  height: 100%;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+}
+
+a,
+button {
+  outline: 0;
+  transition-duration: 0.4s;
+  &:hover,
+  &:visited,
+  &:focus {
+    text-decoration: none !important;
+    transition-duration: 0.4s;
+  }
+}
+
+a[href^=tel] {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
