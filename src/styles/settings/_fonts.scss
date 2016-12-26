@@ -1,0 +1,11 @@
+// Fonts
+$fontastic: 'fontastic';
+
+/* Fontastic */
+@include font-face(
+  $fontastic,
+  "../fonts/fontastic/#{$fontastic}",
+  normal,
+  normal,
+  eot woff ttf svg
+);

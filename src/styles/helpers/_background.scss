@@ -1,0 +1,27 @@
+// Background
+.bg {
+  &.-bg-cover,
+  &.-bg-cover-before:before,
+  &.-bg-cover-after:after {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  &.-bg-contain,
+  &.-bg-contain-before:before,
+  &.-bg-contain-after:after {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  &.-bg-position-top,
+  &.-bg-position-top-before:before,
+  &.-bg-position-top-after:after {
+    background-position: center top !important;
+  }
+  &.-bg-position-bottom,
+  &.-bg-position-bottom-before:before,
+  &.-bg-position-bottom-after:after {
+    background-position: center bottom !important;
+  }
+}

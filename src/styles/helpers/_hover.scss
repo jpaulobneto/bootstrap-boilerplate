@@ -1,0 +1,14 @@
+// Hover
+.hover {
+  &.-hover-scale {
+    .image {
+      transition: all .50s ease;
+    }
+    &:hover {
+      .image {
+        transition: all .50s ease;
+        transform: scale(1.1, 1.1);
+      }
+    }
+  }
+}
