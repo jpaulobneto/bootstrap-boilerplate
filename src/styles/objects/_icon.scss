@@ -16,7 +16,7 @@
 // icon--name[After|Before]
 .icon {
   @each $key, $value in $icons {
-    &.-#{$key} {
+    &.-icon-#{$key} {
       &-after:after, &-before:before {
         content: $value;
       }
