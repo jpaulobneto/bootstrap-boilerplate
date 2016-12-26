@@ -10,7 +10,7 @@ requireDir('./gulp');
 gulp.task('default', ['clean'], cb => {
   return runSequence(
     ['styles', 'vendors', 'scripts'],
-    ['fonts', 'images', 'minifyCss'],
+    ['fonts', 'images', 'icons', 'minifyCss'],
     'copy',
     cb
   );

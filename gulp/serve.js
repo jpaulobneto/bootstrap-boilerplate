@@ -16,6 +16,7 @@ gulp.task('serve', ['styles', 'vendors', 'scriptify'], () => {
   gulp.watch(`${cons.src}/styles/**/*.{scss,sass}`, ['styles']);
   gulp.watch(`${cons.src}/*.html`, cons.reload);
   gulp.watch(`${cons.src}/images/**/*`, cons.reload);
+  gulp.watch(`${cons.src}/icons/**/*`, cons.reload);
 
 });
 
